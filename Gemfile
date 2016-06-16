@@ -12,11 +12,12 @@ gem 'turbolinks', '2.5.3'
 gem 'jbuilder', '2.2.13'
 gem 'sdoc', '0.4.1', group: :doc
 gem 'pg'
+gem 'bootstrap-sass', '~> 3.3.6'
+gem 'react-rails', '~> 1.0'
 
 group :development, :test do
   gem 'byebug', '4.0.5'
   gem 'web-console', '2.1.2'
-  gem 'spring', '1.3.4'
 end
 
 group :production do
